@@ -17,7 +17,7 @@ export default function Hero() {
           We bring the products, expertise, and care your space deserves.
         </p>
         <div className="animate-fade-in-up animate-fade-in-up-delay-2 mt-8 md:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="#contact" className="bg-deep-green text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-deep-green/90 transition-all shadow-lg shadow-deep-green/20">Get a Free Quote</a>
+          <a href="#contact" className="bg-deep-green text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-deep-green/90 transition-all shadow-lg shadow-deep-green/20">Book a Cleaning</a>
           <a href="#services" className="border-2 border-deep-green text-deep-green px-8 py-3.5 rounded-full text-sm font-medium hover:bg-deep-green/5 transition-all">See Our Services</a>
         </div>
       </div>

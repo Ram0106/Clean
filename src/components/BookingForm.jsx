@@ -108,7 +108,7 @@ export default function BookingForm() {
 
               <button onClick={handleSubmit} disabled={status === "loading"}
                 className="w-full mt-6 bg-deep-green text-white py-3.5 rounded-full text-sm font-medium hover:bg-deep-green/90 transition-all shadow-lg shadow-deep-green/20 disabled:opacity-60 disabled:cursor-not-allowed">
-                {status === "loading" ? "Sending..." : "Request Your Free Quote"}
+                {status === "loading" ? "Sending..." : "Request a Quote"}
               </button>
             </>
           )}
