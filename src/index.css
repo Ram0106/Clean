@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", serif;
+  --font-sans: "DM Sans", sans-serif;
+  --color-sage-50: #F5F8F2;
+  --color-sage-100: #EDF3E6;
+  --color-sage-200: #D8E5C8;
+  --color-sage-300: #C2D5A8;
+  --color-sage-400: #A8C285;
+  --color-sage-500: #8DAB64;
+  --color-sage-600: #6F8F4A;
+  --color-sage-700: #567039;
+  --color-sage-800: #455A2F;
+  --color-sage-900: #3A4A28;
+  --color-charcoal: #2C2C2C;
+  --color-deep-green: #2D4A32;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  min-width: 100%;
+}
+
+body {
+  width: 100%;
+  min-width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "DM Sans", sans-serif;
+  color: #2C2C2C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: "DM Serif Display", serif;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+.animate-fade-in-up-delay-1 {
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+.animate-fade-in-up-delay-2 {
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+.animate-fade-in-up-delay-3 {
+  animation-delay: 0.6s;
+  opacity: 0;
+}
