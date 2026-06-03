@@ -7,6 +7,7 @@ import BeforeAfter from "./components/BeforeAfter";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import EcoBadges from "./components/EcoBadges";
+import FAQ from "./components/FAQ";
 import BookingForm from "./components/BookingForm";
 import Footer from "./components/Footer";
 
@@ -22,6 +23,7 @@ function App() {
       <Pricing />
       <Testimonials />
       <EcoBadges />
+      <FAQ />
       <BookingForm />
       <Footer />
     </div>

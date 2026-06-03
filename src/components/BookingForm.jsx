@@ -46,7 +46,7 @@ export default function BookingForm() {
       <div className="w-full max-w-3xl px-6">
         <div className="w-full text-center mb-10">
           <h2 className="font-serif text-3xl md:text-4xl text-charcoal">Request a quote</h2>
-          <p className="mt-3 text-charcoal/65">Fill out the form below and we&apos;ll get back to you within 24 hours with a custom quote.</p>
+          <p className="mt-3 text-charcoal/65">Fill out the form below and we'll get back to you within 24 hours with a custom quote.</p>
         </div>
 
         <div className="w-full bg-sage-50 rounded-2xl p-6 md:p-10 shadow-md">

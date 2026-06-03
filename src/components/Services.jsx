@@ -1,33 +1,33 @@
 const services = [
   {
-    icon: "M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 0 2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128m0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.422 6.42a15.995 15.995 0 0 0 3.478-2.648 3 3 0 0 0-4.148-4.315 15.995 15.995 0 0 0-2.648 3.478m0 0a15.989 15.989 0 0 0-3.395 1.622m.79 2.47a15.999 15.999 0 0 1-3.423 1.622",
+    icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25",
     title: "Regular Cleaning",
     desc: "Weekly or bi-weekly maintenance to keep your home consistently fresh, tidy, and welcoming every day.",
   },
   {
-    icon: "M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5",
+    icon: "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z",
     title: "Deep Cleaning",
     desc: "An intensive top-to-bottom scrub tackling kitchens, bathrooms, baseboards, and every overlooked corner.",
   },
   {
-    icon: "M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m1.5.5-1.5-.5M6.75 7.364V3h-3v18m3-13.636 10.5-3.819",
+    icon: "M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15",
     title: "Move-In / Move-Out",
     desc: "End-of-lease or new-home cleaning that ensures every surface shines so deposits are returned in full.",
   },
   {
     icon: "M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21",
     title: "Office Cleaning",
-    desc: "Commercial-grade cleaning for workspaces — desks, break rooms, restrooms, and common areas included.",
+    desc: "Commercial-grade cleaning for workspaces, break rooms, restrooms, and common areas included.",
   },
   {
-    icon: "M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z",
+    icon: "M21.75 6.75a4.5 4.5 0 01-4.884 4.484c-1.076-.091-2.264.071-2.95.904l-7.152 8.684a2.548 2.548 0 11-3.586-3.586l8.684-7.152c.833-.686.995-1.874.904-2.95a4.5 4.5 0 016.336-4.486l-3.276 3.276a3.004 3.004 0 002.25 2.25l3.276-3.276c.256.565.398 1.192.398 1.852z",
     title: "Post-Construction",
     desc: "Removes drywall dust, paint splatters, and debris so your renovated space is move-in ready immediately.",
   },
   {
-    icon: "M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.766 5.412",
+    icon: "M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75",
     title: "Eco-Friendly Cleaning",
-    desc: "Plant-based, non-toxic products that are safe for children, pets, and the planet — without sacrificing results.",
+    desc: "Plant-based, non-toxic products that are safe for children, pets, and the planet without sacrificing results.",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function Services() {
       <div className="w-full max-w-7xl px-6">
         <div className="w-full text-center mb-14">
           <h2 className="font-serif text-3xl md:text-4xl text-charcoal">Services we offer</h2>
-          <p className="mt-3 text-charcoal/65 max-w-xl mx-auto">Every service is customised to your home&apos;s size, your schedule, and your priorities.</p>
+          <p className="mt-3 text-charcoal/65 max-w-xl mx-auto">Every service is customised to your home's size, your schedule, and your priorities.</p>
         </div>
         <div className="w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((s) => (
@@ -47,7 +47,7 @@ export default function Services() {
               </svg>
               <h3 className="font-serif text-xl text-charcoal mb-2">{s.title}</h3>
               <p className="text-sm text-charcoal/65 leading-relaxed mb-4">{s.desc}</p>
-              <a href="#contact" className="text-sm font-medium text-deep-green hover:underline">Learn More &rarr;</a>
+              <a href="#contact" className="text-sm font-medium text-deep-green hover:underline">Learn More →</a>
             </div>
           ))}
         </div>
