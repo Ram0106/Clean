@@ -74,6 +74,9 @@ export default function FAQ() {
             </div>
           ))}
         </div>
+        <div className="w-full text-center mt-12">
+          <a href="#contact" className="inline-block bg-deep-green text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-deep-green/90 transition-all shadow-lg shadow-deep-green/20">Request a Free Quote</a>
+        </div>
       </div>
     </section>
   );

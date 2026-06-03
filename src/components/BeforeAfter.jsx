@@ -31,7 +31,7 @@ export default function BeforeAfter() {
 
   return (
     <section className="w-full py-20 md:py-28 bg-white flex justify-center">
-      <div className="w-full max-w-5xl px-6">
+      <div className="w-full max-w-[900px] px-6">
         <div className="w-full text-center mb-12">
           <h2 className="font-serif text-3xl md:text-4xl text-charcoal">See the difference</h2>
           <p className="mt-3 text-charcoal/65 max-w-lg mx-auto">Our work speaks for itself. Every job is approached with precision and care.</p>
@@ -47,12 +47,12 @@ export default function BeforeAfter() {
           onTouchEnd={onTouchEnd}
         >
           <div className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80')" }}>
+            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800')" }}>
             <div className="absolute top-3 right-3 bg-deep-green/90 text-white text-xs font-medium px-3 py-1 rounded-full">After</div>
           </div>
           <div className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80')",
+              backgroundImage: "url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800')",
               clipPath: `inset(0 ${100 - sliderPos}% 0 0)`,
             }}>
             <div className="absolute top-3 left-3 bg-charcoal/80 text-white text-xs font-medium px-3 py-1 rounded-full">Before</div>
@@ -64,6 +64,9 @@ export default function BeforeAfter() {
               </svg>
             </div>
           </div>
+        </div>
+        <div className="w-full text-center mt-12">
+          <a href="#contact" className="inline-block bg-deep-green text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-deep-green/90 transition-all shadow-lg shadow-deep-green/20">Book a Cleaning</a>
         </div>
       </div>
     </section>

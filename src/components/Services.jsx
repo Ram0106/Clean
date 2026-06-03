@@ -20,12 +20,12 @@ const services = [
     desc: "Commercial-grade cleaning for workspaces, break rooms, restrooms, and common areas included.",
   },
   {
-    icon: "M21.75 6.75a4.5 4.5 0 01-4.884 4.484c-1.076-.091-2.264.071-2.95.904l-7.152 8.684a2.548 2.548 0 11-3.586-3.586l8.684-7.152c.833-.686.995-1.874.904-2.95a4.5 4.5 0 016.336-4.486l-3.276 3.276a3.004 3.004 0 002.25 2.25l3.276-3.276c.256.565.398 1.192.398 1.852z",
+    icon: "M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5 M14 6a6 6 0 0 1 6 6v3 M4 15v-3a6 6 0 0 1 6-6 M3 15 L21 15 A1 1 0 0 1 22 16 L22 18 A1 1 0 0 1 21 19 L3 19 A1 1 0 0 1 2 18 L2 16 A1 1 0 0 1 3 15 Z",
     title: "Post-Construction",
     desc: "Removes drywall dust, paint splatters, and debris so your renovated space is move-in ready immediately.",
   },
   {
-    icon: "M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75",
+    icon: "M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12",
     title: "Eco-Friendly Cleaning",
     desc: "Plant-based, non-toxic products that are safe for children, pets, and the planet without sacrificing results.",
   },

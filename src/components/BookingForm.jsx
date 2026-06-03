@@ -42,7 +42,7 @@ export default function BookingForm() {
   };
 
   return (
-    <section id="contact" className="w-full py-20 md:py-28 bg-white flex justify-center">
+    <section id="contact" className="w-full pt-14 pb-20 md:pt-18 md:pb-28 bg-white flex justify-center">
       <div className="w-full max-w-3xl px-6">
         <div className="w-full text-center mb-10">
           <h2 className="font-serif text-3xl md:text-4xl text-charcoal">Request a quote</h2>
