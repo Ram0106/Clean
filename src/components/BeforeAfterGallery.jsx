@@ -1,21 +1,21 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 
 const rooms = [
-  {
-    name: "Kitchen",
-    before: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80&fit=crop",
-    after: "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=900&q=80&fit=crop",
-  },
-  {
-    name: "Bathroom",
-    before: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80&fit=crop",
-    after: "https://images.unsplash.com/photo-1620626011761-996317702519?w=900&q=80&fit=crop",
-  },
-  {
-    name: "Living Room",
-    before: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80&fit=crop",
-    after: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80&fit=crop",
-  },
+    {
+      name: "Kitchen",
+      before: "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=900&q=80&fit=crop",
+      after: "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=900&q=80&fit=crop",
+    },
+    {
+      name: "Bathroom",
+      before: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80&fit=crop",
+      after: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=900&q=80&fit=crop",
+    },
+    {
+      name: "Living Room",
+      before: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80&fit=crop",
+      after: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80&fit=crop",
+    },
 ];
 
 function Img({ src, alt, className, style, onError }) {
