@@ -47,12 +47,12 @@ export default function BeforeAfter() {
           onTouchEnd={onTouchEnd}
         >
           <div className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800')" }}>
+            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&q=80')" }}>
             <div className="absolute top-3 right-3 bg-deep-green/90 text-white text-xs font-medium px-3 py-1 rounded-full">After</div>
           </div>
           <div className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800')",
+              backgroundImage: "url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80')",
               clipPath: `inset(0 ${100 - sliderPos}% 0 0)`,
             }}>
             <div className="absolute top-3 left-3 bg-charcoal/80 text-white text-xs font-medium px-3 py-1 rounded-full">Before</div>
